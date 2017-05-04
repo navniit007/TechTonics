@@ -1,0 +1,77 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<display-name>LoginServlet</display-name>
+  	<description></description>
+  	<servlet-class>LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RegisterServlet</servlet-name>
+  	<display-name>RegisterServlet</display-name>
+  	<description></description>
+  	<servlet-class>RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LoginServlet1</servlet-name>
+  	<display-name>LoginServlet1</display-name>
+  	<description></description>
+  	<servlet-class>LoginServlet1</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>WelcomeServlet</servlet-name>
+  	<display-name>WelcomeServlet</display-name>
+  	<description></description>
+  	<servlet-class>WelcomeServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DeleteServlet</servlet-name>
+  	<display-name>DeleteServlet</display-name>
+  	<description></description>
+  	<servlet-class>DeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddServlet</servlet-name>
+  	<display-name>AddServlet</display-name>
+  	<description></description>
+  	<servlet-class>AddServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>viewServlet</servlet-name>
+  	<display-name>viewServlet</display-name>
+  	<description></description>
+  	<servlet-class>viewServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RegisterServlet</servlet-name>
+  	<url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoginServlet1</servlet-name>
+  	<url-pattern>/LoginServlet1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>WelcomeServlet</servlet-name>
+  	<url-pattern>/WelcomeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DeleteServlet</servlet-name>
+  	<url-pattern>/DeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddServlet</servlet-name>
+  	<url-pattern>/AddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>viewServlet</servlet-name>
+  	<url-pattern>/viewServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
